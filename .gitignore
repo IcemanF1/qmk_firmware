@@ -87,3 +87,8 @@ __pycache__
 
 # Allow to exist but don't include it in the repo
 user_song_list.h
+keyboards/IcemanF1/ps21/keyboards_PS21-main.rar
+keyboards/IcemanF1/ps21/ps21_via.json
+keyboards/IcemanF1/.vscode/c_cpp_properties.json
+keyboards/IcemanF1/.vscode/settings.json
+.gitignore
