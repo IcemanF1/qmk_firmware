@@ -19,20 +19,20 @@
 #pragma once
 #include "config_common.h"
 
-// USB Device descriptor parameter 
+// USB Device descriptor parameter
 #define VENDOR_ID       0x414B // "AK"
-#define PRODUCT_ID      0x0015
+#define PRODUCT_ID      0x0021
 #define DEVICE_VER      0x0002 // Ver2
 #define MANUFACTURER    ATLANTIS
 #define PRODUCT         PS21
 
 //#define ENCODER_RESOLUTION 2 // default is 4
 
-// key matrix size 
-#ifdef RGBLIGHT_ENABLE 
+// key matrix size
+#ifdef RGBLIGHT_ENABLE
 	#define MATRIX_ROWS 6
 #endif
-#ifdef RGB_MATRIX_ENABLE 
+#ifdef RGB_MATRIX_ENABLE
 	#define MATRIX_ROWS 11 //Numpad actually has 6 rows. 5 rows were added for underglow RGB matrix to work together
 #endif
 #define MATRIX_COLS 4
